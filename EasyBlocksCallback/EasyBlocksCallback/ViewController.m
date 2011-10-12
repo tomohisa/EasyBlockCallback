@@ -15,7 +15,7 @@
 @end
 
 @implementation ViewController {
-    EasyCallBack* easyCallback;
+    __strong EasyCallBack* easyCallback;
     IBOutlet UIButton* button;
     IBOutlet UILabel* label;
 }
