@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0147AB1C14453E94001DF185 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147AB1B14453E94001DF185 /* UIKit.framework */; };
+		0147AB1E14453E94001DF185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147AB1D14453E94001DF185 /* Foundation.framework */; };
+		0147AB2014453E94001DF185 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147AB1F14453E94001DF185 /* CoreGraphics.framework */; };
+		0147AB2614453E94001DF185 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0147AB2414453E94001DF185 /* InfoPlist.strings */; };
+		0147AB2814453E94001DF185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147AB2714453E94001DF185 /* main.m */; };
+		0147AB2C14453E94001DF185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147AB2B14453E94001DF185 /* AppDelegate.m */; };
+		0147AB2F14453E94001DF185 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0147AB2D14453E94001DF185 /* MainStoryboard_iPhone.storyboard */; };
+		0147AB3214453E94001DF185 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0147AB3014453E94001DF185 /* MainStoryboard_iPad.storyboard */; };
+		0147AB3514453E94001DF185 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147AB3414453E94001DF185 /* ViewController.m */; };
+		0147AB3D14453E94001DF185 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147AB3C14453E94001DF185 /* SenTestingKit.framework */; };
+		0147AB3E14453E94001DF185 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147AB1B14453E94001DF185 /* UIKit.framework */; };
+		0147AB3F14453E94001DF185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147AB1D14453E94001DF185 /* Foundation.framework */; };
+		0147AB4714453E94001DF185 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0147AB4514453E94001DF185 /* InfoPlist.strings */; };
+		0147AB4A14453E94001DF185 /* EasyBlocksCallbackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147AB4914453E94001DF185 /* EasyBlocksCallbackTests.m */; };
+		0147AB5514454405001DF185 /* EasyCallBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147AB5414454405001DF185 /* EasyCallBack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0147AB4014453E94001DF185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0147AB0E14453E94001DF185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0147AB1614453E94001DF185;
+			remoteInfo = EasyBlocksCallback;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0147AB1714453E94001DF185 /* EasyBlocksCallback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyBlocksCallback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0147AB1B14453E94001DF185 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0147AB1D14453E94001DF185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0147AB1F14453E94001DF185 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0147AB2314453E94001DF185 /* EasyBlocksCallback-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyBlocksCallback-Info.plist"; sourceTree = "<group>"; };
+		0147AB2514453E94001DF185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0147AB2714453E94001DF185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0147AB2914453E94001DF185 /* EasyBlocksCallback-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyBlocksCallback-Prefix.pch"; sourceTree = "<group>"; };
+		0147AB2A14453E94001DF185 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0147AB2B14453E94001DF185 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0147AB2E14453E94001DF185 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		0147AB3114453E94001DF185 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		0147AB3314453E94001DF185 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0147AB3414453E94001DF185 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0147AB3B14453E94001DF185 /* EasyBlocksCallbackTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyBlocksCallbackTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0147AB3C14453E94001DF185 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0147AB4414453E94001DF185 /* EasyBlocksCallbackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyBlocksCallbackTests-Info.plist"; sourceTree = "<group>"; };
+		0147AB4614453E94001DF185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0147AB4814453E94001DF185 /* EasyBlocksCallbackTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyBlocksCallbackTests.h; sourceTree = "<group>"; };
+		0147AB4914453E94001DF185 /* EasyBlocksCallbackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyBlocksCallbackTests.m; sourceTree = "<group>"; };
+		0147AB5314454405001DF185 /* EasyCallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyCallBack.h; sourceTree = "<group>"; };
+		0147AB5414454405001DF185 /* EasyCallBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyCallBack.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0147AB1414453E94001DF185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147AB1C14453E94001DF185 /* UIKit.framework in Frameworks */,
+				0147AB1E14453E94001DF185 /* Foundation.framework in Frameworks */,
+				0147AB2014453E94001DF185 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0147AB3714453E94001DF185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147AB3D14453E94001DF185 /* SenTestingKit.framework in Frameworks */,
+				0147AB3E14453E94001DF185 /* UIKit.framework in Frameworks */,
+				0147AB3F14453E94001DF185 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0147AB0C14453E94001DF185 = {
+			isa = PBXGroup;
+			children = (
+				0147AB2114453E94001DF185 /* EasyBlocksCallback */,
+				0147AB4214453E94001DF185 /* EasyBlocksCallbackTests */,
+				0147AB1A14453E94001DF185 /* Frameworks */,
+				0147AB1814453E94001DF185 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0147AB1814453E94001DF185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0147AB1714453E94001DF185 /* EasyBlocksCallback.app */,
+				0147AB3B14453E94001DF185 /* EasyBlocksCallbackTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0147AB1A14453E94001DF185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0147AB1B14453E94001DF185 /* UIKit.framework */,
+				0147AB1D14453E94001DF185 /* Foundation.framework */,
+				0147AB1F14453E94001DF185 /* CoreGraphics.framework */,
+				0147AB3C14453E94001DF185 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0147AB2114453E94001DF185 /* EasyBlocksCallback */ = {
+			isa = PBXGroup;
+			children = (
+				0147AB2A14453E94001DF185 /* AppDelegate.h */,
+				0147AB2B14453E94001DF185 /* AppDelegate.m */,
+				0147AB2D14453E94001DF185 /* MainStoryboard_iPhone.storyboard */,
+				0147AB3014453E94001DF185 /* MainStoryboard_iPad.storyboard */,
+				0147AB3314453E94001DF185 /* ViewController.h */,
+				0147AB3414453E94001DF185 /* ViewController.m */,
+				0147AB2214453E94001DF185 /* Supporting Files */,
+				0147AB5314454405001DF185 /* EasyCallBack.h */,
+				0147AB5414454405001DF185 /* EasyCallBack.m */,
+			);
+			path = EasyBlocksCallback;
+			sourceTree = "<group>";
+		};
+		0147AB2214453E94001DF185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0147AB2314453E94001DF185 /* EasyBlocksCallback-Info.plist */,
+				0147AB2414453E94001DF185 /* InfoPlist.strings */,
+				0147AB2714453E94001DF185 /* main.m */,
+				0147AB2914453E94001DF185 /* EasyBlocksCallback-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0147AB4214453E94001DF185 /* EasyBlocksCallbackTests */ = {
+			isa = PBXGroup;
+			children = (
+				0147AB4814453E94001DF185 /* EasyBlocksCallbackTests.h */,
+				0147AB4914453E94001DF185 /* EasyBlocksCallbackTests.m */,
+				0147AB4314453E94001DF185 /* Supporting Files */,
+			);
+			path = EasyBlocksCallbackTests;
+			sourceTree = "<group>";
+		};
+		0147AB4314453E94001DF185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0147AB4414453E94001DF185 /* EasyBlocksCallbackTests-Info.plist */,
+				0147AB4514453E94001DF185 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0147AB1614453E94001DF185 /* EasyBlocksCallback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0147AB4D14453E94001DF185 /* Build configuration list for PBXNativeTarget "EasyBlocksCallback" */;
+			buildPhases = (
+				0147AB1314453E94001DF185 /* Sources */,
+				0147AB1414453E94001DF185 /* Frameworks */,
+				0147AB1514453E94001DF185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyBlocksCallback;
+			productName = EasyBlocksCallback;
+			productReference = 0147AB1714453E94001DF185 /* EasyBlocksCallback.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0147AB3A14453E94001DF185 /* EasyBlocksCallbackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0147AB5014453E94001DF185 /* Build configuration list for PBXNativeTarget "EasyBlocksCallbackTests" */;
+			buildPhases = (
+				0147AB3614453E94001DF185 /* Sources */,
+				0147AB3714453E94001DF185 /* Frameworks */,
+				0147AB3814453E94001DF185 /* Resources */,
+				0147AB3914453E94001DF185 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0147AB4114453E94001DF185 /* PBXTargetDependency */,
+			);
+			name = EasyBlocksCallbackTests;
+			productName = EasyBlocksCallbackTests;
+			productReference = 0147AB3B14453E94001DF185 /* EasyBlocksCallbackTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0147AB0E14453E94001DF185 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0147AB1114453E94001DF185 /* Build configuration list for PBXProject "EasyBlocksCallback" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0147AB0C14453E94001DF185;
+			productRefGroup = 0147AB1814453E94001DF185 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0147AB1614453E94001DF185 /* EasyBlocksCallback */,
+				0147AB3A14453E94001DF185 /* EasyBlocksCallbackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0147AB1514453E94001DF185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147AB2614453E94001DF185 /* InfoPlist.strings in Resources */,
+				0147AB2F14453E94001DF185 /* MainStoryboard_iPhone.storyboard in Resources */,
+				0147AB3214453E94001DF185 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0147AB3814453E94001DF185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147AB4714453E94001DF185 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0147AB3914453E94001DF185 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0147AB1314453E94001DF185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147AB2814453E94001DF185 /* main.m in Sources */,
+				0147AB2C14453E94001DF185 /* AppDelegate.m in Sources */,
+				0147AB3514453E94001DF185 /* ViewController.m in Sources */,
+				0147AB5514454405001DF185 /* EasyCallBack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0147AB3614453E94001DF185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147AB4A14453E94001DF185 /* EasyBlocksCallbackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0147AB4114453E94001DF185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0147AB1614453E94001DF185 /* EasyBlocksCallback */;
+			targetProxy = 0147AB4014453E94001DF185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0147AB2414453E94001DF185 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0147AB2514453E94001DF185 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0147AB2D14453E94001DF185 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0147AB2E14453E94001DF185 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0147AB3014453E94001DF185 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0147AB3114453E94001DF185 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0147AB4514453E94001DF185 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0147AB4614453E94001DF185 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0147AB4B14453E94001DF185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0147AB4C14453E94001DF185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0147AB4E14453E94001DF185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyBlocksCallback/EasyBlocksCallback-Prefix.pch";
+				INFOPLIST_FILE = "EasyBlocksCallback/EasyBlocksCallback-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0147AB4F14453E94001DF185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyBlocksCallback/EasyBlocksCallback-Prefix.pch";
+				INFOPLIST_FILE = "EasyBlocksCallback/EasyBlocksCallback-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0147AB5114453E94001DF185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyBlocksCallback.app/EasyBlocksCallback";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyBlocksCallback/EasyBlocksCallback-Prefix.pch";
+				INFOPLIST_FILE = "EasyBlocksCallbackTests/EasyBlocksCallbackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0147AB5214453E94001DF185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyBlocksCallback.app/EasyBlocksCallback";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyBlocksCallback/EasyBlocksCallback-Prefix.pch";
+				INFOPLIST_FILE = "EasyBlocksCallbackTests/EasyBlocksCallbackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0147AB1114453E94001DF185 /* Build configuration list for PBXProject "EasyBlocksCallback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147AB4B14453E94001DF185 /* Debug */,
+				0147AB4C14453E94001DF185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0147AB4D14453E94001DF185 /* Build configuration list for PBXNativeTarget "EasyBlocksCallback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147AB4E14453E94001DF185 /* Debug */,
+				0147AB4F14453E94001DF185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0147AB5014453E94001DF185 /* Build configuration list for PBXNativeTarget "EasyBlocksCallbackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147AB5114453E94001DF185 /* Debug */,
+				0147AB5214453E94001DF185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0147AB0E14453E94001DF185 /* Project object */;
+}
