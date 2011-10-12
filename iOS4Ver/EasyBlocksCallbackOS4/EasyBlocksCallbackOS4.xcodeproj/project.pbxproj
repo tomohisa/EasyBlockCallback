@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0147AB661445FF34001DF185 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147AB651445FF34001DF185 /* UIKit.framework */; };
+		0147AB681445FF34001DF185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147AB671445FF34001DF185 /* Foundation.framework */; };
+		0147AB6A1445FF34001DF185 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147AB691445FF34001DF185 /* CoreGraphics.framework */; };
+		0147AB701445FF34001DF185 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0147AB6E1445FF34001DF185 /* InfoPlist.strings */; };
+		0147AB721445FF34001DF185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147AB711445FF34001DF185 /* main.m */; };
+		0147AB761445FF34001DF185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147AB751445FF34001DF185 /* AppDelegate.m */; };
+		0147AB791445FF34001DF185 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147AB781445FF34001DF185 /* ViewController.m */; };
+		0147AB7C1445FF34001DF185 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0147AB7A1445FF34001DF185 /* ViewController.xib */; };
+		0147AB841445FF34001DF185 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147AB831445FF34001DF185 /* SenTestingKit.framework */; };
+		0147AB851445FF34001DF185 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147AB651445FF34001DF185 /* UIKit.framework */; };
+		0147AB861445FF34001DF185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147AB671445FF34001DF185 /* Foundation.framework */; };
+		0147AB8E1445FF34001DF185 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0147AB8C1445FF34001DF185 /* InfoPlist.strings */; };
+		0147AB911445FF34001DF185 /* EasyBlocksCallbackOS4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147AB901445FF34001DF185 /* EasyBlocksCallbackOS4Tests.m */; };
+		0147ABA414460088001DF185 /* EasyCallBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147ABA314460088001DF185 /* EasyCallBack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0147AB871445FF34001DF185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0147AB581445FF34001DF185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0147AB601445FF34001DF185;
+			remoteInfo = EasyBlocksCallbackOS4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0147AB611445FF34001DF185 /* EasyBlocksCallbackOS4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyBlocksCallbackOS4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0147AB651445FF34001DF185 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0147AB671445FF34001DF185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0147AB691445FF34001DF185 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0147AB6D1445FF34001DF185 /* EasyBlocksCallbackOS4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyBlocksCallbackOS4-Info.plist"; sourceTree = "<group>"; };
+		0147AB6F1445FF34001DF185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0147AB711445FF34001DF185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0147AB731445FF34001DF185 /* EasyBlocksCallbackOS4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyBlocksCallbackOS4-Prefix.pch"; sourceTree = "<group>"; };
+		0147AB741445FF34001DF185 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0147AB751445FF34001DF185 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0147AB771445FF34001DF185 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0147AB781445FF34001DF185 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0147AB7B1445FF34001DF185 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0147AB821445FF34001DF185 /* EasyBlocksCallbackOS4Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyBlocksCallbackOS4Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0147AB831445FF34001DF185 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0147AB8B1445FF34001DF185 /* EasyBlocksCallbackOS4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyBlocksCallbackOS4Tests-Info.plist"; sourceTree = "<group>"; };
+		0147AB8D1445FF34001DF185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0147AB8F1445FF34001DF185 /* EasyBlocksCallbackOS4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyBlocksCallbackOS4Tests.h; sourceTree = "<group>"; };
+		0147AB901445FF34001DF185 /* EasyBlocksCallbackOS4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyBlocksCallbackOS4Tests.m; sourceTree = "<group>"; };
+		0147ABA214460088001DF185 /* EasyCallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyCallBack.h; sourceTree = "<group>"; };
+		0147ABA314460088001DF185 /* EasyCallBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyCallBack.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0147AB5E1445FF34001DF185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147AB661445FF34001DF185 /* UIKit.framework in Frameworks */,
+				0147AB681445FF34001DF185 /* Foundation.framework in Frameworks */,
+				0147AB6A1445FF34001DF185 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0147AB7E1445FF34001DF185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147AB841445FF34001DF185 /* SenTestingKit.framework in Frameworks */,
+				0147AB851445FF34001DF185 /* UIKit.framework in Frameworks */,
+				0147AB861445FF34001DF185 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0147AB561445FF34001DF185 = {
+			isa = PBXGroup;
+			children = (
+				0147AB6B1445FF34001DF185 /* EasyBlocksCallbackOS4 */,
+				0147AB891445FF34001DF185 /* EasyBlocksCallbackOS4Tests */,
+				0147AB641445FF34001DF185 /* Frameworks */,
+				0147AB621445FF34001DF185 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0147AB621445FF34001DF185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0147AB611445FF34001DF185 /* EasyBlocksCallbackOS4.app */,
+				0147AB821445FF34001DF185 /* EasyBlocksCallbackOS4Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0147AB641445FF34001DF185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0147AB651445FF34001DF185 /* UIKit.framework */,
+				0147AB671445FF34001DF185 /* Foundation.framework */,
+				0147AB691445FF34001DF185 /* CoreGraphics.framework */,
+				0147AB831445FF34001DF185 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0147AB6B1445FF34001DF185 /* EasyBlocksCallbackOS4 */ = {
+			isa = PBXGroup;
+			children = (
+				0147AB741445FF34001DF185 /* AppDelegate.h */,
+				0147AB751445FF34001DF185 /* AppDelegate.m */,
+				0147AB771445FF34001DF185 /* ViewController.h */,
+				0147AB781445FF34001DF185 /* ViewController.m */,
+				0147AB7A1445FF34001DF185 /* ViewController.xib */,
+				0147AB6C1445FF34001DF185 /* Supporting Files */,
+				0147ABA214460088001DF185 /* EasyCallBack.h */,
+				0147ABA314460088001DF185 /* EasyCallBack.m */,
+			);
+			path = EasyBlocksCallbackOS4;
+			sourceTree = "<group>";
+		};
+		0147AB6C1445FF34001DF185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0147AB6D1445FF34001DF185 /* EasyBlocksCallbackOS4-Info.plist */,
+				0147AB6E1445FF34001DF185 /* InfoPlist.strings */,
+				0147AB711445FF34001DF185 /* main.m */,
+				0147AB731445FF34001DF185 /* EasyBlocksCallbackOS4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0147AB891445FF34001DF185 /* EasyBlocksCallbackOS4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0147AB8F1445FF34001DF185 /* EasyBlocksCallbackOS4Tests.h */,
+				0147AB901445FF34001DF185 /* EasyBlocksCallbackOS4Tests.m */,
+				0147AB8A1445FF34001DF185 /* Supporting Files */,
+			);
+			path = EasyBlocksCallbackOS4Tests;
+			sourceTree = "<group>";
+		};
+		0147AB8A1445FF34001DF185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0147AB8B1445FF34001DF185 /* EasyBlocksCallbackOS4Tests-Info.plist */,
+				0147AB8C1445FF34001DF185 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0147AB601445FF34001DF185 /* EasyBlocksCallbackOS4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0147AB941445FF34001DF185 /* Build configuration list for PBXNativeTarget "EasyBlocksCallbackOS4" */;
+			buildPhases = (
+				0147AB5D1445FF34001DF185 /* Sources */,
+				0147AB5E1445FF34001DF185 /* Frameworks */,
+				0147AB5F1445FF34001DF185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyBlocksCallbackOS4;
+			productName = EasyBlocksCallbackOS4;
+			productReference = 0147AB611445FF34001DF185 /* EasyBlocksCallbackOS4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0147AB811445FF34001DF185 /* EasyBlocksCallbackOS4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0147AB971445FF34001DF185 /* Build configuration list for PBXNativeTarget "EasyBlocksCallbackOS4Tests" */;
+			buildPhases = (
+				0147AB7D1445FF34001DF185 /* Sources */,
+				0147AB7E1445FF34001DF185 /* Frameworks */,
+				0147AB7F1445FF34001DF185 /* Resources */,
+				0147AB801445FF34001DF185 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0147AB881445FF34001DF185 /* PBXTargetDependency */,
+			);
+			name = EasyBlocksCallbackOS4Tests;
+			productName = EasyBlocksCallbackOS4Tests;
+			productReference = 0147AB821445FF34001DF185 /* EasyBlocksCallbackOS4Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0147AB581445FF34001DF185 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0147AB5B1445FF34001DF185 /* Build configuration list for PBXProject "EasyBlocksCallbackOS4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0147AB561445FF34001DF185;
+			productRefGroup = 0147AB621445FF34001DF185 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0147AB601445FF34001DF185 /* EasyBlocksCallbackOS4 */,
+				0147AB811445FF34001DF185 /* EasyBlocksCallbackOS4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0147AB5F1445FF34001DF185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147AB701445FF34001DF185 /* InfoPlist.strings in Resources */,
+				0147AB7C1445FF34001DF185 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0147AB7F1445FF34001DF185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147AB8E1445FF34001DF185 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0147AB801445FF34001DF185 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0147AB5D1445FF34001DF185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147AB721445FF34001DF185 /* main.m in Sources */,
+				0147AB761445FF34001DF185 /* AppDelegate.m in Sources */,
+				0147AB791445FF34001DF185 /* ViewController.m in Sources */,
+				0147ABA414460088001DF185 /* EasyCallBack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0147AB7D1445FF34001DF185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147AB911445FF34001DF185 /* EasyBlocksCallbackOS4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0147AB881445FF34001DF185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0147AB601445FF34001DF185 /* EasyBlocksCallbackOS4 */;
+			targetProxy = 0147AB871445FF34001DF185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0147AB6E1445FF34001DF185 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0147AB6F1445FF34001DF185 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0147AB7A1445FF34001DF185 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0147AB7B1445FF34001DF185 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		0147AB8C1445FF34001DF185 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0147AB8D1445FF34001DF185 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0147AB921445FF34001DF185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0147AB931445FF34001DF185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0147AB951445FF34001DF185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyBlocksCallbackOS4/EasyBlocksCallbackOS4-Prefix.pch";
+				INFOPLIST_FILE = "EasyBlocksCallbackOS4/EasyBlocksCallbackOS4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0147AB961445FF34001DF185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyBlocksCallbackOS4/EasyBlocksCallbackOS4-Prefix.pch";
+				INFOPLIST_FILE = "EasyBlocksCallbackOS4/EasyBlocksCallbackOS4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0147AB981445FF34001DF185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyBlocksCallbackOS4.app/EasyBlocksCallbackOS4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyBlocksCallbackOS4/EasyBlocksCallbackOS4-Prefix.pch";
+				INFOPLIST_FILE = "EasyBlocksCallbackOS4Tests/EasyBlocksCallbackOS4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0147AB991445FF34001DF185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyBlocksCallbackOS4.app/EasyBlocksCallbackOS4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyBlocksCallbackOS4/EasyBlocksCallbackOS4-Prefix.pch";
+				INFOPLIST_FILE = "EasyBlocksCallbackOS4Tests/EasyBlocksCallbackOS4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0147AB5B1445FF34001DF185 /* Build configuration list for PBXProject "EasyBlocksCallbackOS4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147AB921445FF34001DF185 /* Debug */,
+				0147AB931445FF34001DF185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0147AB941445FF34001DF185 /* Build configuration list for PBXNativeTarget "EasyBlocksCallbackOS4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147AB951445FF34001DF185 /* Debug */,
+				0147AB961445FF34001DF185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0147AB971445FF34001DF185 /* Build configuration list for PBXNativeTarget "EasyBlocksCallbackOS4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147AB981445FF34001DF185 /* Debug */,
+				0147AB991445FF34001DF185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0147AB581445FF34001DF185 /* Project object */;
+}
